@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Migrate">
+  <UsingTask TaskName="FluentMigrator.MSBuild.Migrate"
+       AssemblyFile="..\packages\FluentMigrator.1.6.2\tools\FluentMigrator.MSBuild.dll"/>
+  <Target Name="Migrate" >
+    <Message Text="Starting FluentMigrator Migration"/>
+    <Migrate Database="mysql"
+             Connection="Server=127.0.0.1;Database=db_sound_training;User Id=testuser1;Password=ThePassw0rd;"
+             Target=".\bin\Debug\SoundTraining.Migrations.dll">
+    </Migrate>
+  </Target>
+</Project>

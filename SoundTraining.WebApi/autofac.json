@@ -1,0 +1,11 @@
+﻿{
+  "defaultAssembly": "SoundTraining.WebApi",
+  "modules": [
+    {
+      "type": "SoundTraining.Provider.Modules.DatabaseModule, SoundTraining.Provider",
+      "properties": {
+        "ConnectionString": "Persist Security Info=False;database=db_sound_training;server=127.0.0.1;port=3306;user id=testuser1;pwd=ThePassw0rd;Allow Zero Datetime=True;"
+      }
+    }
+  ]
+}

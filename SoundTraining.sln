@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTraining.Provider", "SoundTraining.Provider\SoundTraining.Provider.csproj", "{3FE7ECB1-DA98-43F5-BB19-78F9ED2C8958}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0C0673E2-6416-48EB-B309-3F6A26CCC41A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTraining.Provider.Tests", "SoundTraining.Provider.Tests\SoundTraining.Provider.Tests.csproj", "{86F1D877-D7D8-42E5-80A1-6561CB518947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTraining.WebApi", "SoundTraining.WebApi\SoundTraining.WebApi.csproj", "{93B4E38D-D22E-4C89-853A-C2EAECE94F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTraining.Migrations", "SoundTraining.Migrations\SoundTraining.Migrations.csproj", "{AD878ADC-CF99-4BA9-AA5D-CAE248BF5CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTraining.Domain", "SoundTraining.Domain\SoundTraining.Domain.csproj", "{0A2FDDDA-A05B-4366-9A35-BE6191339292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE7ECB1-DA98-43F5-BB19-78F9ED2C8958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE7ECB1-DA98-43F5-BB19-78F9ED2C8958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE7ECB1-DA98-43F5-BB19-78F9ED2C8958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE7ECB1-DA98-43F5-BB19-78F9ED2C8958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F1D877-D7D8-42E5-80A1-6561CB518947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F1D877-D7D8-42E5-80A1-6561CB518947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F1D877-D7D8-42E5-80A1-6561CB518947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F1D877-D7D8-42E5-80A1-6561CB518947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B4E38D-D22E-4C89-853A-C2EAECE94F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B4E38D-D22E-4C89-853A-C2EAECE94F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B4E38D-D22E-4C89-853A-C2EAECE94F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B4E38D-D22E-4C89-853A-C2EAECE94F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD878ADC-CF99-4BA9-AA5D-CAE248BF5CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD878ADC-CF99-4BA9-AA5D-CAE248BF5CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD878ADC-CF99-4BA9-AA5D-CAE248BF5CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD878ADC-CF99-4BA9-AA5D-CAE248BF5CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2FDDDA-A05B-4366-9A35-BE6191339292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2FDDDA-A05B-4366-9A35-BE6191339292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2FDDDA-A05B-4366-9A35-BE6191339292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2FDDDA-A05B-4366-9A35-BE6191339292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86F1D877-D7D8-42E5-80A1-6561CB518947} = {0C0673E2-6416-48EB-B309-3F6A26CCC41A}
+	EndGlobalSection
+EndGlobal
